@@ -15,7 +15,7 @@ public class App
     for (File file : dirFiles)
       if (file.isDirectory())
         allFiles.addAll(listMP4Files(file));
-      else if (file.getAbsolutePath().endsWith(".m4a"))
+      else if (file.getAbsolutePath().toLowerCase().endsWith(".m4a"))
         allFiles.add(file);
     return allFiles;
   }
@@ -36,9 +36,9 @@ public class App
 
   public static void main(String[] args) throws Exception
   {
-    System.out.println("M4A-2-MP3 by Christoph Muche");
-    System.out.println("www.cmuche.de");
-    System.out.println("============================");
+    System.out.println("========== M4A-2-MP3 ==========");
+    System.out.println("Christoph Muche - www.cmuche.de");
+    System.out.println("===============================");
 
     if (args.length < 1)
       throw new Exception("No parameters!");
