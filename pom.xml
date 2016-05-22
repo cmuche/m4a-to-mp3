@@ -3,7 +3,7 @@
 
   <groupId>muche</groupId>
   <artifactId>M4A2MP3</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>jar</packaging>
 
   <name>M4A2MP3</name>
